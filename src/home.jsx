@@ -37,7 +37,7 @@ function Home() {
             <div class="home-container">
                     <h2>Minhas Rotinas</h2>
                 <div className='barra-menu'>
-                    <button onClick={tela}>rotina</button>
+                    <button onClick={tela}>Rotina</button>
                     <button onClick={fazerRotina}>Adicionar rotina</button>
                     <button onClick={teste}>Apoio emocional </button>
 
@@ -70,7 +70,7 @@ function Home() {
 
             <ul className={pagina ?'' :'none'}>
                 {rotinas.map(rotina => (
-                <div className='rotina' key={rotina.id}>  <p>{rotina.texto} - horario de inicio : {rotina.horaI} / horario de termino : {rotina.horaF}</p></div>
+                <div className='rotina' key={rotina.id}>  <p>{rotina.texto} - Horário de início : {rotina.horaI} / Horário de término : {rotina.horaF}</p></div>
                 ))}
             </ul>
 
